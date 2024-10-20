@@ -10,13 +10,13 @@ In recent years, global climate change has significantly affected infrastructure
 
 ## Problem Statement
 The primary issue with traditional bridge infrastructure is its inability to adapt to changing environmental conditions. As a result, bridges are highly vulnerable to extreme weather events. The most pressing problems include:
-### Design and Structural Issues
+<br> Design and Structural Issues
 <br> Older bridges were often designed without considering the impacts of climate change. These designs do not account for rising water levels, higher rainfall volumes, or sudden flooding, all of which pose serious threats to the integrity of the bridge.
-### 	Lack of Real-Time Monitoring
+<br>	Lack of Real-Time Monitoring
 <br> Most traditional bridges are monitored only intermittently, meaning that potential issues might go unnoticed until it's too late. Without real-time monitoring, small problems can escalate, leading to catastrophic failures.
-### •	Slow Response to Emergencies
+<br> •	Slow Response to Emergencies
 <br> During floods, the inability of a bridge to adjust or be raised to a safe height increases the risk of structural failure, vehicle accidents, and loss of life.
-## Technical Specifications
+<br> Technical Specifications
 <br> •	Arduino UNO: Based on the ATmega328P microcontroller, this board features 14 digital input/output pins, 6 analog inputs, and operates at 5V. It is capable of executing complex algorithms for real-time processing and decision-making.
 <br> •	Soil Moisture Sensor: Measures the volumetric water content in the soil and provides analog signals to the Arduino. The sensor is placed at the base of the bridge to detect rising water levels.
 <br> •	Servo Motor: A high-torque motor that provides precise control of angular motion. This motor can lift and lower the bridge within a range defined by the Arduino. The motor has built-in feedback mechanisms, allowing it to maintain the bridge at the required height.
